@@ -8,6 +8,8 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
 
+import java.util.List;
+
 import click.dummer.uglykeyb.uglykeyb.R;
 
 public class MyInputMethodService extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
@@ -16,7 +18,14 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
     public View onCreateInputView() {
         // get the KeyboardView and add our Keyboard layout to it
         KeyboardView keyboardView = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard_view, null);
-        Keyboard keyboard = new Keyboard(this, R.xml.number_pad);
+        Keyboard keyboard = new Keyboard(this, R.xml.pad);
+        List<Keyboard.Key> keys = keyboard.getKeys();
+
+        for (Keyboard.Key key : keys) {
+            if (key.codes[0] == -5) {
+                ;
+            }
+        }
         keyboardView.setKeyboard(keyboard);
         keyboardView.setOnKeyboardActionListener(this);
         return keyboardView;
@@ -37,6 +46,9 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
                         inputConnection.commitText("", 1);
                     }
 
+                    break;
+                case Keyboard.KEYCODE_DONE:
+                    inputConnection.sendKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_ENTER));
                     break;
                 default :
                     char code = (char) primaryCode;
@@ -65,4 +77,5 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
 
     @Override
     public void swipeUp() { }
+
 }
