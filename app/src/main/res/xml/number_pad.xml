@@ -6,7 +6,7 @@
     android:keyHeight="60dp">
 
     <Row>
-        <Key android:codes="124" android:keyLabel="|" android:keyEdgeFlags="left"/>
+        <Key android:codes="124,105" android:keyLabel="|i" android:keyEdgeFlags="left"/>
         <Key android:codes="50" android:keyLabel="2"/>
         <Key android:codes="51" android:keyLabel="3"/>
         <Key android:codes="53" android:keyLabel="5"/>
@@ -26,10 +26,10 @@
         <Key android:codes="114" android:keyLabel="r"/>
         <Key android:codes="97" android:keyLabel="a" android:keyWidth="13%p" />
         <Key android:codes="116" android:keyLabel="t"/>
-        <Key android:codes="121" android:keyLabel="y" android:keyWidth="12%p" />
-        <Key android:codes="117" android:keyLabel="u" android:keyWidth="12%p" />
-        <Key android:codes="100" android:keyLabel="d"/>
-        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="121,102" android:keyLabel="yf" android:keyWidth="12%p" />
+        <Key android:codes="117" android:keyLabel="u" />
+        <Key android:codes="100,112" android:keyLabel="dp" android:keyWidth="12%p"/>
+        <Key android:codes="46,64" android:keyLabel=".\@"/>
         <Key android:codes="58" android:keyLabel=":" android:keyEdgeFlags="right" />
     </Row>
 
