@@ -11,7 +11,7 @@ joined that way: they look similar.
 
 ## oh no! Oh yes!!!
 
-You need öäü and ß? Improve it with oe ae or ue. For ß make a / and 3: /3 which locks very similar. Uppercase? I am sorry, only L is uppercase in "|i" button.
+You need öäü and ß? Improve it with oe ae or ue. For ß make a / and 3: /3 which locks very similar. Uppercase? I am sorry, only L is uppercase.
 
 ## Install
 
