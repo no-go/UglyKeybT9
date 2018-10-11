@@ -1,4 +1,4 @@
-package click.dummer.uglykeyb;
+package click.dummer.lgbtikeyb;
 
 import java.lang.reflect.Field;
 import android.content.Context;

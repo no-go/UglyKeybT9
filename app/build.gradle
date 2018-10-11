@@ -3,9 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "click.dummer.uglykeyb"
+        applicationId "click.dummer.lgbtikeyb"
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 26
         versionCode 11
         versionName "1.1"
     }

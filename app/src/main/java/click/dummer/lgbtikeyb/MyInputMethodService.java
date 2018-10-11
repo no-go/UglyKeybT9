@@ -1,4 +1,4 @@
-package click.dummer.uglykeyb;
+package click.dummer.lgbtikeyb;
 
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
@@ -9,8 +9,6 @@ import android.view.View;
 import android.view.inputmethod.InputConnection;
 
 import java.util.List;
-
-import click.dummer.uglykeyb.uglykeyb.R;
 
 public class MyInputMethodService extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
 

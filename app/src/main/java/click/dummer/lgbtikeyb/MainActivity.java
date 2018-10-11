@@ -1,10 +1,8 @@
-package click.dummer.uglykeyb;
+package click.dummer.lgbtikeyb;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import click.dummer.uglykeyb.uglykeyb.R;
 
 public class MainActivity extends AppCompatActivity {
 
