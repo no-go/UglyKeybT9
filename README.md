@@ -1,8 +1,23 @@
 # Ugly Keyb T9
 
-It is a too minimalistic android keyboard. You will miss many keys.
+It is a too minimalistic android keyboard. You will miss many keys. It is a combination of wired, usability and big keys on small board.
 
 ![logo](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+
+## Layout
+
+You have to type a key more times to get a different character. The numbers and charaters are
+joined that way: they look similar or placed there on a normal qwerty keyboard.
+
+![layout](app/src/main/res/mipmap-xxxhdpi/picture_layout.png)
+
+## oh no! Oh yes!!!
+
+You need öäü and ß? Improve it with oe ae or ue. For ß make a | and 3: |3 which locks very similar. Uppercase? I am sorry, only L is uppercase in "|i" button.
+
+## Install
+
+After installation do not forget to activate the keyboard in the preferences of your mobile.
 
 ## Get the App
 
