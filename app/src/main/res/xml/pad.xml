@@ -16,7 +16,7 @@
         <Key android:codes="111,246,248,48" android:keyLabel="o"/>
         <Key android:codes="112,33,63" android:keyLabel="p!"/>
         <Key android:codes="-5"
-            android:keyLabel="\u140a"
+            android:keyLabel=" "
             android:isRepeatable="true"
             android:keyEdgeFlags="right" />
     </Row>
@@ -46,7 +46,7 @@
         <Key android:codes="109" android:keyLabel="m"/>
 
         <Key android:codes="-4"
-            android:keyLabel="\u1412"
+            android:keyLabel=" "
             android:keyWidth="20%p"
             android:keyEdgeFlags="right"/>
     </Row>

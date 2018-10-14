@@ -1,4 +1,4 @@
-# Ugly Keyb T9
+# Mini c64 keyb
 
 It is a too minimalistic android keyboard. You will miss many keys. It is a combination of wired, usability and big keys on small board.
 
@@ -9,15 +9,13 @@ It is a too minimalistic android keyboard. You will miss many keys. It is a comb
 You have to type a key more times to get a different character. The numbers and charaters are
 joined that way: they look similar or placed there on a normal qwerty keyboard.
 
-![layout](app/src/main/res/mipmap-xxxhdpi/picture_layout.png)
-
 ## Install
 
 After installation do not forget to activate the keyboard in the preferences of your mobile.
 
 ## Get the App
 
-You can get a signed APK from here (Android 4.1+): [APK](https://raw.githubusercontent.com/no-go/UglyKeybT9/master/app/release/click.dummer.uglykeyb.apk)
+You can get a signed APK from here (Android 4.1+): [APK](https://raw.githubusercontent.com/no-go/UglyKeybT9/moreC64/app/release/click.dummer.uglykeyb.apk)
 
 ## Screenshot
 

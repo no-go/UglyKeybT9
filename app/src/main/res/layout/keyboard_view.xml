@@ -3,14 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/keyboard_view"
     android:layout_width="match_parent"
-    android:background="@color/colorOther"
-    android:keyBackground="@color/colorPrimaryDark"
+    android:background="@mipmap/back"
+    android:keyBackground="@android:color/transparent"
     android:keyPreviewHeight="0dp"
     android:keyTextColor="@color/colorAccent"
     android:layout_height="wrap_content"
-    android:keyTextSize="15dp"
+    android:keyTextSize="12dp"
     android:keyPreviewLayout="@layout/key_preview"
     android:padding="3dp"
+    android:layout_gravity="bottom"
     android:layout_centerInParent="true">
 
 </android.inputmethodservice.KeyboardView>
