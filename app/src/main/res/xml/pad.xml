@@ -6,48 +6,47 @@
     android:keyHeight="45dp">
 
     <Row>
-        <Key android:codes="124,105,106,49,76" android:keyLabel="|i" android:keyEdgeFlags="left" />
-        <Key android:codes="50,122" android:keyLabel="2"/>
-        <Key android:codes="51,52" android:keyLabel="3"/>
-        <Key android:codes="53,115" android:keyLabel="5"/>
-        <Key android:codes="40,55" android:keyLabel="("/>
-        <Key android:codes="41,56" android:keyLabel=")"/>
-        <Key android:codes="111,48" android:keyLabel="o"/>
-        <Key android:codes="43,45" android:keyLabel="+-"/>
-        <Key android:codes="33,63" android:keyLabel="!\?"/>
+        <Key android:codes="118,119,49" android:keyLabel="v" android:keyEdgeFlags="left" />
+        <Key android:codes="115,122,223,50" android:keyLabel="sz"/>
+        <Key android:codes="116,103,51" android:keyLabel="tg"/>
+        <Key android:codes="45,43,52" android:keyLabel="-+"/>
+        <Key android:codes="40,41,53" android:keyLabel="()"/>
+        <Key android:codes="98,54,39" android:keyLabel="b6"/>
+        <Key android:codes="99,55,56" android:keyLabel="c"/>
+        <Key android:codes="111,246,248,48" android:keyLabel="o"/>
+        <Key android:codes="112,33,63" android:keyLabel="p!"/>
         <Key android:codes="-5"
-            android:keyLabel="DEL"
+            android:keyLabel="\u140a"
             android:isRepeatable="true"
             android:keyEdgeFlags="right" />
     </Row>
 
     <Row>
-        <Key android:codes="97" android:keyLabel="a" android:keyWidth="12%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="114" android:keyLabel="r"/>
-        <Key android:codes="101" android:keyLabel="e" android:keyWidth="13%p" />
-        <Key android:codes="116,103,54,57" android:keyLabel="tg" android:keyWidth="11%p"/>
-        <Key android:codes="121,102,120" android:keyLabel="yf" android:keyWidth="12%p" />
-        <Key android:codes="117" android:keyLabel="u" />
-        <Key android:codes="100,112,98,113" android:keyLabel="dp" android:keyWidth="12%p"/>
-        <Key android:codes="46,64" android:keyLabel=".\@"/>
-        <Key android:codes="58,47,92" android:keyLabel=":" android:keyEdgeFlags="right" />
+        <Key android:codes="97,228" android:keyLabel="a" android:keyEdgeFlags="left"/>
+        <Key android:codes="101" android:keyLabel="e"/>
+        <Key android:codes="114" android:keyLabel="r" />
+        <Key android:codes="117,252,57" android:keyLabel="u9" android:keyWidth="11%p"/>
+        <Key android:codes="46,44,64" android:keyLabel=".,@" android:keyWidth="13%p" />
+        <Key android:codes="35,59,58,47,92" android:keyLabel="#;/" android:keyWidth="15%p" />
+        <Key android:codes="104,107" android:keyLabel="hk"/>
+        <Key android:codes="105,106" android:keyLabel="ij"/>
+        <Key android:codes="108" android:keyLabel="l" android:keyWidth="11%p" android:keyEdgeFlags="right" />
     </Row>
 
     <Row>
-        <Key android:codes="119,118" android:keyLabel="w" android:keyEdgeFlags="left"/>
-        <Key android:codes="99" android:keyLabel="c"/>
-        <Key android:codes="104,107" android:keyLabel="h"/>
+        <Key android:codes="121,120" android:keyLabel="yx" android:keyEdgeFlags="left"/>
+        <Key android:codes="100,113" android:keyWidth="12%p" android:keyLabel="dq"/>
+        <Key android:codes="102" android:keyLabel="f"/>
 
-        <Key android:codes="32"
+        <Key android:codes="32,9786,9749,9829"
             android:keyLabel=" "
-            android:keyWidth="30%p"
-            android:isRepeatable="true"/>
+            android:keyWidth="28%p" />
 
         <Key android:codes="110" android:keyLabel="n"/>
         <Key android:codes="109" android:keyLabel="m"/>
 
         <Key android:codes="-4"
-            android:keyLabel="DONE"
+            android:keyLabel="\u1412"
             android:keyWidth="20%p"
             android:keyEdgeFlags="right"/>
     </Row>

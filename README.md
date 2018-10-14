@@ -11,10 +11,6 @@ joined that way: they look similar or placed there on a normal qwerty keyboard.
 
 ![layout](app/src/main/res/mipmap-xxxhdpi/picture_layout.png)
 
-## oh no! Oh yes!!!
-
-You need öäü and ß? Improve it with oe ae or ue. For ß make a | and 3: |3 which locks very similar. Uppercase? I am sorry, only L is uppercase in "|i" button.
-
 ## Install
 
 After installation do not forget to activate the keyboard in the preferences of your mobile.
